@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  swiftTextAdventure
+//  marioTextAdventure
 //
-//  Created by Matthew RIley on 2/2/23.
+//  Created by Trace Smith on 2/3/23.
 //
 
 // Text Adventure Game
@@ -12,7 +12,6 @@ let enter = "Please enter 1 or 2 for your answer"
 
 let gameOver = "Sorry GAME OVER!"
 
-// NOTE: \n creates a new line (AKA Line break) when displayed in the debug console
 let newLine = "\n"
 
 //Correct == 1
@@ -54,7 +53,6 @@ var userInput = readLine()
 // 1ST IF ELSE Statement
 if (userInput == "1"){
     print(q2)
-    // The value for the userInput variable is updated using the user's readLine response
     userInput = readLine()
     
     // 2ND IF ELSE Statement
